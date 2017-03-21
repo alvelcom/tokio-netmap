@@ -1,0 +1,12 @@
+[package]
+name = "tokio-netmap"
+version = "0.1.0"
+authors = ["Pavel Khusainov <alvelcom@gmail.com>"]
+license = "MIT"
+keywords = ["netmap", "tokio"]
+
+[dependencies]
+futures = "*"
+tokio-core = "*"
+mio = "*"
+libc = "*"
